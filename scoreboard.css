@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "my font"; 
+    src: url("../digital-7-font/Digital7-rg1mL.ttf");
+}
+
+@font-face {
+    font-family: "robo font";
+    src: url("../Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+
+.container{
+    margin: 3rem auto 0 auto;
+    padding: 2rem 0 7rem 0;
+    background-color: #0F172A;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container div h3{
+    font-family: "robo font";
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+}
+
+.container div h2{
+    padding-top: 0;
+    font-family: "my font";
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: rgb(190, 17, 17);
+    background-color: black;
+    text-align: center;
+    margin-top: 5px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    color: rgb(182, 182, 182);
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "my font";
+}
+
+.btn span{
+    border: 1px solid grey;
+    border-radius: 1px;
+    padding: 5px 7px;
+    cursor: pointer;
+}
